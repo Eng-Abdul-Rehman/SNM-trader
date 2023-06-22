@@ -59,7 +59,7 @@ export default function BasicModal({item}) {
                   <Box
                     sx={{ borderBottom: "1px solid #abb8c3", paddingBottom: 1 }}
                   >
-                    <Typography sx={{ fontSize: 28 }}>{item.Type}</Typography>
+                    <Typography sx={{ fontSize: 28 }}>{item?.Type}</Typography>
                     <Box sx={{ display: "flex", marginTop: 0.8 }}>
                       <Typography sx={{ color: "#666" }}>Brand: </Typography>
                       <Typography
@@ -69,7 +69,7 @@ export default function BasicModal({item}) {
                           ":hover": { color: "#fcb900" },
                         }}
                       >
-                        {item.Brand}
+                        {item?.Brand}
                       </Typography>
                       <Box
                         sx={{
@@ -83,13 +83,13 @@ export default function BasicModal({item}) {
                       <Rating
                         sx={{ fontSize: 16, marginY: 0.4 }}
                         name="read-only"
-                        value={item.StarRate}
+                        value={item?.StarRate}
                         readOnly
                       />
                       <Typography
                         sx={{ fontSize: 14, marginLeft: 1, color: "#666" }}
                       >
-                        {item.Reviews}
+                        {item?.Reviews}
                       </Typography>
                     </Box>
                   </Box>
@@ -104,7 +104,7 @@ export default function BasicModal({item}) {
                         paddingBottom: 0.6,
                       }}
                     >
-                      ${item.Price}
+                      ${item?.Price}
                     </Typography>
                     <Box sx={{ display: "flex", gap: 1 }}>
                       <Typography sx={{ fontSize: 14 }}>Status:</Typography>
@@ -115,7 +115,7 @@ export default function BasicModal({item}) {
                           fontWeight: "bold",
                         }}
                       >
-                        {item.InStockORnot}
+                        {item?.InStockORnot}
                       </Typography>
                     </Box>
                     <Box sx={{ marginTop: 2 }}>
@@ -139,7 +139,7 @@ export default function BasicModal({item}) {
                             color: "#666",
                           }}
                         >
-                          {item.TypeLine1}
+                          {item?.TypeLine1}
                         </Typography>
                       </Box>
                       <Box
@@ -168,7 +168,7 @@ export default function BasicModal({item}) {
                             color: "#666",
                           }}
                         >
-                          {item.TypeLine2}
+                          {item?.TypeLine2}
                         </Typography>
                       </Box>
                       <Box
@@ -197,7 +197,7 @@ export default function BasicModal({item}) {
                             color: "#666",
                           }}
                         >
-                          {item.TypeLine3}
+                          {item?.TypeLine3}
                         </Typography>
                       </Box>
                       <Box
@@ -226,7 +226,7 @@ export default function BasicModal({item}) {
                             color: "#666",
                           }}
                         >
-                          {item.TypeLine4}
+                          {item?.TypeLine4}
                         </Typography>
                       </Box>
                       <Box
@@ -255,7 +255,7 @@ export default function BasicModal({item}) {
                             color: "#666",
                           }}
                         >
-                          {item.TypeLine5}
+                          {item?.TypeLine5}
                         </Typography>
                       </Box>
                     </Box>
