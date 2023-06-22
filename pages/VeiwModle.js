@@ -52,7 +52,7 @@ export default function BasicModal({item}) {
                 <img
                   height="100%"
                   width="50%"
-                  src={item.Image}
+                  src={item?.Image}
                   alt="image of product"
                 />
                 <Box sx={{ width: "70%", padding: 1 }}>
