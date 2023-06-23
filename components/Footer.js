@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -94,8 +95,8 @@ const Footer = () => {
                     className="widget social-links-widget social-links"
                   >
                     <div className="social-links-list">
-                      <a
-                        href="#"
+                      <Link
+                        href="/"
                         className="share-facebook tooltip-enable share-social"
                         rel="nofollow"
                         title="Facebook"
@@ -104,9 +105,9 @@ const Footer = () => {
                         target="_blank"
                       >
                         <i className="social social_facebook" />
-                      </a>
-                      <a
-                        href="#"
+                      </Link>
+                      <Link
+                        href="/"
                         className="share-twitter tooltip-enable share-social"
                         rel="nofollow"
                         title="Twitter"
@@ -115,8 +116,8 @@ const Footer = () => {
                         target="_blank"
                       >
                         <i className="social social_twitter" />
-                      </a>
-                      <a
+                      </Link>
+                      <Link
                         href="#"
                         className="share-googleplus tooltip-enable share-social"
                         rel="nofollow"
@@ -126,8 +127,8 @@ const Footer = () => {
                         target="_blank"
                       >
                         <i className="social social_googleplus" />
-                      </a>
-                      <a
+                      </Link>
+                      <Link
                         href="#"
                         className="share-youtube tooltip-enable share-social"
                         rel="nofollow"
@@ -137,8 +138,8 @@ const Footer = () => {
                         target="_blank"
                       >
                         <i className="social social_youtube" />
-                      </a>
-                      <a
+                      </Link>
+                      <Link
                         href="#"
                         className="share-instagram tooltip-enable share-social"
                         rel="nofollow"
@@ -148,7 +149,7 @@ const Footer = () => {
                         target="_blank"
                       >
                         <i className="social social_instagram" />
-                      </a>
+                      </Link>
                     </div>
                   </div>{" "}
                 </div>
@@ -161,65 +162,65 @@ const Footer = () => {
                           id="menu-item-2224"
                           className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2224"
                         >
-                          <a href="https://x4traders.com/product-category/computers-technologies/desktop-pc/">
+                          <Link href="/">
                             Desktop PC
-                          </a>
+                          </Link>
                         </li>
                         <li
                           id="menu-item-2225"
                           className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2225"
                         >
-                          <a href="https://x4traders.com/product-category/computers-technologies/laptop/">
+                          <Link href="/">
                             Laptop
-                          </a>
+                          </Link>
                         </li>
                         <li
                           id="menu-item-2226"
                           className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2226"
                         >
-                          <a href="https://x4traders.com/product-category/computers-technologies/smartphones/">
+                          <Link href="/">
                             Smartphones
-                          </a>
+                          </Link>
                         </li>
                         <li
                           id="menu-item-2227"
                           className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2227"
                         >
-                          <a href="https://x4traders.com/product-category/consumer-electrics/audios-theaters/headphone/">
+                          <Link href="/">
                             Tablet
-                          </a>
+                          </Link>
                         </li>
                         <li
                           id="menu-item-2228"
                           className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2228"
                         >
-                          <a href="https://x4traders.com/product-category/consumer-electrics/audios-theaters/speakers/">
+                          <Link href="/">
                             Game Controller
-                          </a>
+                          </Link>
                         </li>
                         <li
                           id="menu-item-2229"
                           className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2229"
                         >
-                          <a href="https://x4traders.com/product-category/consumer-electrics/car-electronics/audio-video/">
+                          <Link href="/">
                             Audio &amp; Video
-                          </a>
+                          </Link>
                         </li>
                         <li
                           id="menu-item-2230"
                           className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2230"
                         >
-                          <a href="https://x4traders.com/product-category/consumer-electrics/car-electronics/car-security/">
+                          <Link href="/">
                             Wireless Speaker
-                          </a>
+                          </Link>
                         </li>
                         <li
                           id="menu-item-2231"
                           className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2231"
                         >
-                          <a href="https://x4traders.com/product-category/consumer-electrics/car-electronics/radar-detector/">
+                          <Link href="/">
                             Drone
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -234,49 +235,49 @@ const Footer = () => {
                           id="menu-item-2232"
                           className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2232"
                         >
-                          <a href="https://x4traders.com/product-category/health-beauty/hair-care/">
+                          <Link href="/">
                             Hair Care
-                          </a>
+                          </Link>
                         </li>
                         <li
                           id="menu-item-2233"
                           className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2233"
                         >
-                          <a href="https://x4traders.com/product-category/health-beauty/makeup/">
+                          <Link href="/">
                             Makeup
-                          </a>
+                          </Link>
                         </li>
                         <li
                           id="menu-item-2234"
                           className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2234"
                         >
-                          <a href="https://x4traders.com/product-category/health-beauty/perfumer/">
+                          <Link href="/">
                             Body Shower
-                          </a>
+                          </Link>
                         </li>
                         <li
                           id="menu-item-2235"
                           className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2235"
                         >
-                          <a href="https://x4traders.com/product-category/health-beauty/skin-care/">
+                          <Link href="/">
                             Skin Care
-                          </a>
+                          </Link>
                         </li>
                         <li
                           id="menu-item-2236"
                           className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2236"
                         >
-                          <a href="https://x4traders.com/product-category/jewelry-watches/">
+                          <Link href="/">
                             Cologine
-                          </a>
+                          </Link>
                         </li>
                         <li
                           id="menu-item-2237"
                           className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2237"
                         >
-                          <a href="https://x4traders.com/product-category/babies-moms/">
+                          <Link href="/">
                             Perfume
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -291,57 +292,57 @@ const Footer = () => {
                           id="menu-item-2238"
                           className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2238"
                         >
-                          <a href="https://x4traders.com/product-category/clothing-apparel/bags/">
+                          <Link href="/">
                             Necklace
-                          </a>
+                          </Link>
                         </li>
                         <li
                           id="menu-item-2239"
                           className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2239"
                         >
-                          <a href="https://x4traders.com/product-category/clothing-apparel/sunglasses/">
+                          <Link href="/">
                             Pendant
-                          </a>
+                          </Link>
                         </li>
                         <li
                           id="menu-item-2240"
                           className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2240"
                         >
-                          <a href="https://x4traders.com/product-category/clothing-apparel/accessories-clothing-apparel/">
+                          <Link href="/">
                             Diamond Ring
-                          </a>
+                          </Link>
                         </li>
                         <li
                           id="menu-item-2241"
                           className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2241"
                         >
-                          <a href="https://x4traders.com/product-category/clothing-apparel/kids-fashion/">
+                          <Link href="/">
                             Sliver Earing
-                          </a>
+                          </Link>
                         </li>
                         <li
                           id="menu-item-2242"
                           className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2242"
                         >
-                          <a href="https://x4traders.com/product-category/consumer-electrics/audios-theaters/speakers/">
+                          <Link href="/">
                             Leather Watcher
-                          </a>
+                          </Link>
                         </li>
                         <li
                           id="menu-item-2243"
                           className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2243"
                         >
-                          <a href="https://x4traders.com/product-category/consumer-electrics/office-electronics/printers/">
+                         <Link href="/">
                             Rolex
-                          </a>
+                          </Link>
                         </li>
                         <li
                           id="menu-item-2244"
                           className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2244"
                         >
-                          <a href="https://x4traders.com/product-category/consumer-electrics/tv-televisions/4k-ultra-hd-tvs/">
+                          <Link href="/">
                             Gucci
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -357,49 +358,49 @@ const Footer = () => {
                         id="menu-item-477"
                         className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-477"
                       >
-                        <a href="https://x4traders.com/product-category/consumer-electrics/air-conditioners/">
+                        <Link href="/">
                           Air Conditioners
-                        </a>
+                        </Link>
                       </li>
                       <li
                         id="menu-item-478"
                         className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-478"
                       >
-                        <a href="https://x4traders.com/product-category/consumer-electrics/audios-theaters/">
+                        <Link href="/">
                           Audios &amp; Theaters
-                        </a>
+                        </Link>
                       </li>
                       <li
                         id="menu-item-479"
                         className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-479"
                       >
-                        <a href="https://x4traders.com/product-category/consumer-electrics/car-electronics/">
+                        <Link href="/">
                           Car Electronics
-                        </a>
+                        </Link>
                       </li>
                       <li
                         id="menu-item-480"
                         className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-480"
                       >
-                        <a href="https://x4traders.com/product-category/consumer-electrics/office-electronics/">
+                        <Link href="/">
                           Office Electronics
-                        </a>
+                        </Link>
                       </li>
                       <li
                         id="menu-item-481"
                         className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-481"
                       >
-                        <a href="https://x4traders.com/product-category/consumer-electrics/tv-televisions/">
+                        <Link href="/">
                           TV Televisions
-                        </a>
+                        </Link>
                       </li>
                       <li
                         id="menu-item-482"
                         className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-482"
                       >
-                        <a href="https://x4traders.com/product-category/consumer-electrics/washing-machines/">
+                        <Link href="/">
                           Washing Machines
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -412,57 +413,57 @@ const Footer = () => {
                         id="menu-item-483"
                         className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-483"
                       >
-                        <a href="https://x4traders.com/product-category/consumer-electrics/office-electronics/printers/">
+                        <Link href="/">
                           Printers
-                        </a>
+                        </Link>
                       </li>
                       <li
                         id="menu-item-484"
                         className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-484"
                       >
-                        <a href="https://x4traders.com/product-category/consumer-electrics/office-electronics/projectors/">
+                        <Link href="/">
                           Projectors
-                        </a>
+                        </Link>
                       </li>
                       <li
                         id="menu-item-485"
                         className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-485"
                       >
-                        <a href="https://x4traders.com/product-category/consumer-electrics/office-electronics/scanners/">
+                        <Link href="/">
                           Scanners
-                        </a>
+                        </Link>
                       </li>
                       <li
                         id="menu-item-486"
                         className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-486"
                       >
-                        <a href="https://x4traders.com/product-category/consumer-electrics/office-electronics/store-business/">
+                        <Link href="/">
                           Store &amp; Business
-                        </a>
+                        </Link>
                       </li>
                       <li
                         id="menu-item-487"
                         className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-487"
                       >
-                        <a href="https://x4traders.com/product-category/consumer-electrics/tv-televisions/4k-ultra-hd-tvs/">
+                        <Link href="/">
                           4K Ultra HD TVs
-                        </a>
+                        </Link>
                       </li>
                       <li
                         id="menu-item-488"
                         className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-488"
                       >
-                        <a href="https://x4traders.com/product-category/consumer-electrics/tv-televisions/led-tvs/">
+                        <Link href="/">
                           LED TVs
-                        </a>
+                        </Link>
                       </li>
                       <li
                         id="menu-item-489"
                         className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-489"
                       >
-                        <a href="https://x4traders.com/product-category/consumer-electrics/tv-televisions/oled-tvs/">
+                        <Link href="/">
                           OLED TVs
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -475,57 +476,57 @@ const Footer = () => {
                         id="menu-item-2217"
                         className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2217"
                       >
-                        <a href="https://x4traders.com/product-category/garden-kitchen/cookware/">
+                        <Link href="/">
                           Cookware
-                        </a>
+                        </Link>
                       </li>
                       <li
                         id="menu-item-2218"
                         className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2218"
                       >
-                        <a href="https://x4traders.com/product-category/garden-kitchen/decoration/">
+                        <Link href="/">
                           Decoration
-                        </a>
+                        </Link>
                       </li>
                       <li
                         id="menu-item-2219"
                         className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2219"
                       >
-                        <a href="https://x4traders.com/product-category/garden-kitchen/furniture/">
+                        <Link href="/">
                           Furniture
-                        </a>
+                        </Link>
                       </li>
                       <li
                         id="menu-item-2220"
                         className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2220"
                       >
-                        <a href="https://x4traders.com/product-category/garden-kitchen/garden-tools/">
+                        <Link href="/">
                           Garden Tools
-                        </a>
+                        </Link>
                       </li>
                       <li
                         id="menu-item-2221"
                         className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2221"
                       >
-                        <a href="https://x4traders.com/product-category/garden-kitchen/home-improvement/">
+                        <Link href="/">
                           Garden Equipments
-                        </a>
+                        </Link>
                       </li>
                       <li
                         id="menu-item-2222"
                         className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2222"
                       >
-                        <a href="https://x4traders.com/product-category/garden-kitchen/powers-and-hand-tools/">
+                        <Link href="/">
                           Powers And Hand Tools
-                        </a>
+                        </Link>
                       </li>
                       <li
                         id="menu-item-2223"
                         className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2223"
                       >
-                        <a href="https://x4traders.com/product-category/garden-kitchen/utensil-gadget/">
+                        <Link href="/">
                           Utensil &amp; Gadget
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>

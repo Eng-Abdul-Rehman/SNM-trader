@@ -136,7 +136,7 @@ const DealOfTheDay = ({favCount, shopCount}) => {
         </div>
         <Grid container>
         {Electronics.map((item, index) => (
-          <Grid lg={2} md={4} sm={6} xs={9} spacing={2} >
+          <Grid container lg={2.3} md={4} sm={6} xs={9} spacing={2} >
         <Box sx={{ display: "flex", gap: 2,  marginTop: 3, margin: "auto", justifyContent: "center" }}>
           <Box
             onMouseEnter={() => handleMouse2Leave(index)}

@@ -1,3 +1,4 @@
+import { Box, Grid } from '@mui/material'
 import React from 'react'
 
 const TopCategory = () => {
@@ -25,7 +26,7 @@ const TopCategory = () => {
                     </div>
                   </div>
                 </div>
-                <div className="vc_row wpb_row vc_row-fluid">
+                <div className="vc_row wpb_row vc_row-fluid" >
                   <div className="martfury-container">
                     <div className="row">
                       <div className="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6">

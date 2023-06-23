@@ -114,10 +114,10 @@ const HorizontalCarousel = ({DataC}) => {
               }}
             >
               <Box sx={{height: 250}}>
-              <Link href={"/detailPage"} >
+              {/* <Link href={"/detailPage"} > */}
                 {" "}
                 <img width={"98%"} height={"100%"} src={item.Image} alt="image of products" />
-              </Link>
+              {/* </Link> */}
               </Box>
               {hoveredIndex === index && (
                 <Box onMouseEnter={() => handleMouseEnter(index)}>

@@ -4,6 +4,7 @@ import React, { useContext, useState } from "react";
 import { Context } from "./_app";
 import CloseIcon from '@mui/icons-material/Close';
 import Link from "next/link";
+import Footer from "@/components/Footer";
 
 
 function FaveroteItems() {
@@ -36,14 +37,14 @@ function FaveroteItems() {
             </Box>
             <Box sx={{ width: {md:"80%", xs: "100%"}, textAlign: "start", display: "flex" }}>
               <img width={80} height={90} src={item.Image} alt="image of Product" />
-              <Typography sx={{fontSize : 15, marginY: 2}}>{item.Type}</Typography>
+              <Typography sx={{fontSize : 15, marginY: 2, paddingLeft: 2}}>{item.Type}</Typography>
             </Box>
             </Box>
             <Box sx={{ width: {md:"20%", xs: "100%"}, textAlign: "end" }}>
-              <Typography sx={{ color: "#cc0000", marginY: 2, paddingRight: 6 }}>${item.Price}</Typography>
+              <Typography sx={{ color: "#cc0000", marginY: 2, paddingRight: 6, fontSize: 16 }}>${item.Price}</Typography>
             </Box>
             <Box sx={{ width: {md:"30%", xs: "100%"}, textAlign: "center" }}>
-              <Typography sx={{ color: "#669900", marginY: 2 }}>{item.Instock}</Typography>
+              <Typography sx={{ color: "#669900", marginY: 2,fontSize: 16 }}>{item.Instock}</Typography>
             </Box>
             <Box sx={{ width: {md:"25%", xs: "100%"}, textAlign: "start" }}>
             <Button
@@ -87,9 +88,26 @@ function FaveroteItems() {
                   textTransform: "capitalize",
                   backgroundColor: "#fcb800",
                 },
-              }}><KeyboardBackspace sx={{paddingRight: 1}} /> Back To Shop</Button>
+              }}><KeyboardBackspace sx={{paddingRight: 1,fontSize: 30}} /> Back To Shop</Button>
               </Link>
         </Box>
+        <link
+        rel="stylesheet"
+        id="bootstrap-css"
+        href="css/bootstrap.min.css"
+        type="text/css"
+        media="all"
+      />
+      <link
+        rel="stylesheet"
+        id="martfury-css"
+        href="css/style.css"
+        type="text/css"
+        media="all"
+      />
+      <Box sx={{marginTop: 40}}>
+      <Footer />
+      </Box>
 </>
     )
 }

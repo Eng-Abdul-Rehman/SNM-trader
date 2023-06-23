@@ -1,6 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 import Link from "next/link";
+import Footer from "@/components/Footer";
 
 function ThankYouPage () {
     return(

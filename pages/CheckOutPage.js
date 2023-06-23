@@ -3,6 +3,9 @@ import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import { useContext, useState } from "react";
 import { useRouter } from 'next/router';
 import { Context } from './_app';
+import Footer from '@/components/Footer';
+import { ArrowBack } from '@mui/icons-material';
+import Link from 'next/link';
 
 function CheckoutPage ()  {
 const {counts, counts2, CardClose, CardClosed,TotalPrice} = useContext(Context)
@@ -55,18 +58,21 @@ console.log(counts,"Counts of Check", counts2,"Counts2 of Check", CardClose,"Car
   };
     return(
         <>
+        <Link href={"/"}>
+        <ArrowBack sx={{fontSize: 50, color: "black", padding: 1}} />
+        </Link>
         <Box sx={{width: '80%', margin: "auto"}}>
-<Typography sx={{fontSize: 40, fontWeight: "bold", textAlign: "center"}}>
+<Typography sx={{fontSize: 40, fontWeight: "bold", textAlign: "center", color: "black", marginTop: 10}}>
     Checkout
 </Typography>
-<Box sx={{marginTop: 16, width: "100%", display: "flex"}}>
-<Box sx={{width: "60%"}}>
+<Box sx={{marginTop: 16, width: "100%", display: {md:"flex", xs: "block"}}}>
+<Box sx={{width: {md:"60%", xs: "100%"}}}>
 {errorMessage && (
         <Typography sx={{fontSize: 14, backgroundColor: "red", color: "white", padding: 1, width: "90%"}}>{errorMessage}</Typography>
 )}
-   <Typography sx={{fontSize: 18, fontWeight: "bold", marginY: 3}}>Billing details</Typography>
+   <Typography sx={{fontSize: 18, fontWeight: "bold", marginY: 3, color: "black"}}>Billing details</Typography>
 <Box sx={{display : "flex" }}>
-    <Typography sx={{color: "#969696"}}>First name</Typography>
+    <Typography sx={{color: "#969696", fontSize: 19}}>First name</Typography>
     <Typography sx={{color: "red", fontSize: 18, paddingLeft: 1}}>*</Typography>
 </Box>
 <input
@@ -78,7 +84,7 @@ console.log(counts,"Counts of Check", counts2,"Counts2 of Check", CardClose,"Car
 
 
 <Box sx={{display : "flex", marginTop: 1 }}>
-    <Typography sx={{color: "#969696"}}>Last name</Typography>
+    <Typography sx={{color: "#969696", fontSize: 19}}>Last name</Typography>
     <Typography sx={{color: "red", fontSize: 18, paddingLeft: 1}}>*</Typography>
 </Box>
 <input
@@ -91,7 +97,7 @@ console.log(counts,"Counts of Check", counts2,"Counts2 of Check", CardClose,"Car
 
 
 <Box sx={{display : "flex", marginTop: 1 }}>
-    <Typography sx={{color: "#969696"}}>Company name (optional)</Typography>
+    <Typography sx={{color: "#969696", fontSize: 19}}>Company name (optional)</Typography>
 </Box>
 <input
     type="text"
@@ -103,7 +109,7 @@ console.log(counts,"Counts of Check", counts2,"Counts2 of Check", CardClose,"Car
 
 
 <Box sx={{display : "flex", marginTop: 1 }}>
-    <Typography sx={{color: "#969696"}}>Country / Region </Typography>
+    <Typography sx={{color: "#969696", fontSize: 19}}>Country / Region </Typography>
     <Typography sx={{color: "red", fontSize: 18, paddingLeft: 1}}>*</Typography>
 </Box>
 <FormControl sx={{width: "93.6%"}}>
@@ -126,7 +132,7 @@ console.log(counts,"Counts of Check", counts2,"Counts2 of Check", CardClose,"Car
 
 
 <Box sx={{display : "flex", marginTop: 1 }}>
-    <Typography sx={{color: "#969696"}}>Street address</Typography>
+    <Typography sx={{color: "#969696", fontSize: 19}}>Street address</Typography>
     <Typography sx={{color: "red", fontSize: 18, paddingLeft: 1}}>*</Typography>
 </Box>
 <input
@@ -147,7 +153,7 @@ console.log(counts,"Counts of Check", counts2,"Counts2 of Check", CardClose,"Car
 
 
 <Box sx={{display : "flex", marginTop: 1 }}>
-    <Typography sx={{color: "#969696"}}>Town / City</Typography>
+    <Typography sx={{color: "#969696", fontSize: 19}}>Town / City</Typography>
     <Typography sx={{color: "red", fontSize: 18, paddingLeft: 1}}>*</Typography>
 </Box>
 <input
@@ -162,7 +168,7 @@ console.log(counts,"Counts of Check", counts2,"Counts2 of Check", CardClose,"Car
 
 
 <Box sx={{display : "flex", marginTop: 1 }}>
-    <Typography sx={{color: "#969696"}}>Postcode / ZIP</Typography>
+    <Typography sx={{color: "#969696", fontSize: 19}}>Postcode / ZIP</Typography>
     <Typography sx={{color: "red", fontSize: 18, paddingLeft: 1}}>*</Typography>
 </Box>
 <input
@@ -174,7 +180,7 @@ console.log(counts,"Counts of Check", counts2,"Counts2 of Check", CardClose,"Car
 
 
 <Box sx={{display : "flex", marginTop: 1 }}>
-    <Typography sx={{color: "#969696"}}>Phone</Typography>
+    <Typography sx={{color: "#969696", fontSize: 19}}>Phone</Typography>
     <Typography sx={{color: "red", fontSize: 18, paddingLeft: 1}}>*</Typography>
 </Box>
 <input
@@ -185,7 +191,7 @@ console.log(counts,"Counts of Check", counts2,"Counts2 of Check", CardClose,"Car
 />
 
 <Box sx={{display : "flex", marginTop: 1 }}>
-    <Typography sx={{color: "#969696"}}>Email address</Typography>
+    <Typography sx={{color: "#969696", fontSize: 19}}>Email address</Typography>
     <Typography sx={{color: "red", fontSize: 18, paddingLeft: 1}}>*</Typography>
 </Box>
 <input
@@ -197,9 +203,9 @@ console.log(counts,"Counts of Check", counts2,"Counts2 of Check", CardClose,"Car
 
 
 
-<Typography sx={{fontSize: 18, fontWeight: "bold", marginY: 3}}>Additional information</Typography>
+<Typography sx={{fontSize: 20, fontWeight: "bold", marginY: 3, color: "black"}}>Additional information</Typography>
 <Box sx={{display : "flex", marginTop: 1,  }}>
-    <Typography sx={{color: "#969696"}}>Order notes (optional)</Typography>
+    <Typography sx={{color: "#969696", fontSize: 19}}>Order notes (optional)</Typography>
 </Box>
 <textarea
     type="text"
@@ -216,8 +222,8 @@ console.log(counts,"Counts of Check", counts2,"Counts2 of Check", CardClose,"Car
 
 
 
-<Box sx={{width: "40%"}}>
-<Typography sx={{fontSize: 18, fontWeight: "bold", marginY: 3}}>Billing details</Typography>
+<Box sx={{width:{md:"40%", xs: "100%"}}}>
+<Typography sx={{fontSize: 18, fontWeight: "bold", marginY: 3, color: "black"}}>Billing details</Typography>
 <Box sx={{padding: 2, border: "1px solid #bababa", backgroundColor: "#e8e8e8", width: "100%" }}>
 <Box sx={{display: "flex", justifyContent: "space-between", width: "100%", borderBottom: "1px solid #bababa", paddingY: 1}}>
     <Typography sx={{fontSize: 15, fontWeight: "bold",}}>
@@ -284,6 +290,23 @@ sx={{
 
 </Box>
 </Box>
+        </Box>
+        <link
+        rel="stylesheet"
+        id="bootstrap-css"
+        href="css/bootstrap.min.css"
+        type="text/css"
+        media="all"
+      />
+      <link
+        rel="stylesheet"
+        id="martfury-css"
+        href="css/style.css"
+        type="text/css"
+        media="all"
+      />
+      <Box sx={{marginTop: 10}}>
+        <Footer />
         </Box>
         </>
     )
