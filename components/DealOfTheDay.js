@@ -134,21 +134,21 @@ const DealOfTheDay = ({favCount, shopCount}) => {
           </div>{" "}
           
         </div>
-        <Grid container>
+        <Grid container lg={12} md={12} sm={12} xs={12} spacing={1} >
         {Electronics.map((item, index) => (
-          <Grid container lg={2.3} md={4} sm={6} xs={9} spacing={2} >
+          <Grid container lg={2.3} md={4} sm={6} xs={6}  >
         <Box sx={{ display: "flex", gap: 2,  marginTop: 3, margin: "auto", justifyContent: "center" }}>
           <Box
             onMouseEnter={() => handleMouse2Leave(index)}
             onMouseLeave={handleMouse2Enter}
-            sx={{ width: {md:190, xs: 170} }}
+            sx={{ width: {md:190, sm: 170, xs: 150} }}
           >
             <Box
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={handleMouseLeave}
               sx={{
                 position: "relative",
-                width: {md:250, xs: 250},
+                width: {md:250, sm: 250, xs: 150},
                 paddingX: 1,
                 ":hover": { border: "1px solid black" },
                 paddingTop: 2,
@@ -169,7 +169,7 @@ const DealOfTheDay = ({favCount, shopCount}) => {
                       paddingY: 2,
                       display: "flex",
                       justifyContent: "space-betwwen",
-                      paddingLeft: {lg: 6, md: 5.5, sm: 1, xs: 2},
+                      paddingLeft: {lg: 6, md: 5.5, sm: 1, xs: 0},
                     }}
                   >
                     <IconButton

@@ -83,12 +83,12 @@ const LimitedEdtion = () => {
                   <h2 className="box-title" style={{lineHeight: 1.2}}>
                     bioCorneum Plus 
                     <br />
-                    (Size 20g)SPF 30
+                    (Size 20g)
+                    <br />
+                    SPF 30
                   </h2>{" "}
                   <p className="desc">
                   Advanced Scar
-                    <br />
-                    
                     <br />
                     on the world
                   </p>
