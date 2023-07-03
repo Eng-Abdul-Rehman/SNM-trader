@@ -93,7 +93,7 @@ const Moblie1 = ({ DataC}) => {
       ))} */}
 
       {DataC.map((item, index) => (
-        <Box sx={{ display: "flex", gap: 2, marginTop: 3, marginLeft: {md:9, xs: 2} }}>
+        <Box sx={{ display: "flex", gap: 2, marginTop: 0, marginLeft: {md:9, xs: 2} }}>
           <Box
             onMouseEnter={() => handleMouse2Leave(index)}
             onMouseLeave={handleMouse2Enter}
@@ -107,7 +107,7 @@ const Moblie1 = ({ DataC}) => {
                 width: 280,
                 paddingX: 3,
                 ":hover": { border: "1px solid black" },
-                paddingTop: 2,
+                paddingTop: 0,
               }}
             >
                <Box sx={{height: 280}}>

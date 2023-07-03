@@ -26,7 +26,7 @@ const TopCategory = () => {
                     </div>
                   </div>
                 </div>
-                <Grid container gap={3} sx={{marginBottom: -5}}>
+                <Grid container gap={3} sx={{marginBottom: -5, justifyContent: "center"}}>
 
 <Box sx={{border: "1px solid black", padding: 1,display: "flex", flexDirection: "column", gap: 0.5 , justifyContent: "center", textAlign: "center", width:160,height:210}}>
 

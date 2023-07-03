@@ -14,11 +14,6 @@ const Explore1 = ({Catagrie, data}) => {
             <div className="wpb_column vc_column_container vc_col-sm-12">
               <div className="vc_column-inner">
                 <div className="wpb_wrapper">
-                  <div className="martfury-empty-space ">
-                    <div className="mf_empty_space_lg" style={{ height: 52 }} />
-                    <div className="mf_empty_space_md" style={{ height: 52 }} />
-                    <div className="mf_empty_space_xs" style={{ height: 52 }} />
-                  </div>
                   <div
                     className="mf-products-tabs mf-products-tabs-carousel woocommerce  header-style-1"
                     id="products-tabs645c8202e6bf8"

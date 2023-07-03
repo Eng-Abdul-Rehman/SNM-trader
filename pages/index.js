@@ -403,7 +403,7 @@ export default function Home() {
                               />
                               <div
                                 className="mf_empty_space_xs"
-                                style={{ height: 85 }}
+                                style={{ height: 10 }}
                               />
                             </div>
                             {/* deal of the day */}
@@ -521,7 +521,7 @@ export default function Home() {
                                 className="mf_empty_space_md"
                                 style={{ height: 85 }}
                               />
-                              <div
+                             <div
                                 className="mf_empty_space_xs"
                                 style={{ height: 85 }}
                               />
@@ -553,10 +553,6 @@ export default function Home() {
                                 className="mf_empty_space_md"
                                 style={{ height: 85 }}
                               />
-                              <div
-                                className="mf_empty_space_xs"
-                                style={{ height: 85 }}
-                              />
                             </div>
                             <div ref={myDivRef1}>
                             <Explore Catagrie={"Pet Supplies"} data={PetSuppliesData} />
@@ -585,10 +581,6 @@ export default function Home() {
                                 className="mf_empty_space_md"
                                 style={{ height: 85 }}
                               />
-                              <div
-                                className="mf_empty_space_xs"
-                                style={{ height: 85 }}
-                              />
                             </div>
                             <div ref={myDivRef2}>
                             <Explore  Catagrie={"Beauty & Personal Care"} data={Beauty} />
@@ -615,10 +607,6 @@ export default function Home() {
                                 className="mf_empty_space_md"
                                 style={{ height: 85 }}
                               />
-                              <div
-                                className="mf_empty_space_xs"
-                                style={{ height: 85 }}
-                              />
                             </div>
                             <div ref={myDivRef3}>
                             <Explore Catagrie={"Clothing, Shoes & Jewelry"} data={ClothingShoes} />
@@ -643,10 +631,6 @@ export default function Home() {
                               />
                               <div
                                 className="mf_empty_space_md"
-                                style={{ height: 85 }}
-                              />
-                              <div
-                                className="mf_empty_space_xs"
                                 style={{ height: 85 }}
                               />
                             </div>
@@ -735,10 +719,7 @@ export default function Home() {
                                 className="mf_empty_space_md"
                                 style={{ height: 85 }}
                               />
-                              <div
-                                className="mf_empty_space_xs"
-                                style={{ height: 85 }}
-                              />
+                           
                             </div>
                             <HotArival scrole={scrollToDiv} scrole4={scrollToDiv4} scrole3={scrollToDiv3} scrole2={scrollToDiv2} scrole1={scrollToDiv1}/>
                           </div>
