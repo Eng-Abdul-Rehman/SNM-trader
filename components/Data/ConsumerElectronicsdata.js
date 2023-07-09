@@ -75,7 +75,7 @@ export const Electronics = [
     id: 17,
       OutStock: "Out of Stock",
       Instock: "in Stock",
-      Image: "/images//Home & kitchen/zreo-G.jpg",
+      Image: "/images/Home & kitchen/zreo-G.jpg",
       Type: "Pack of 2 Rit Dye Laundry Treatment Color Remover",
       StarRating: "01",
       Price: 15.48,
