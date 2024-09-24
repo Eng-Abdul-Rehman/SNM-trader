@@ -87,7 +87,7 @@ const Footer = () => {
                       Emerald Cir, Durham, NC 27713,
                       <br /> North Carolina United States
                       <br />
-                      contact@x4traders.com
+                      contact@SNMTraders.com
                     </div>
                   </div>
                   <div
@@ -537,7 +537,7 @@ const Footer = () => {
               <div className="row footer-row">
                 <div className="col-footer-copyright col-lg-6 col-md-12 col-sm-12 col-xs-12">
                   <div className="footer-copyright">
-                    © 2018 x4Traders.com . All Rights Reserved
+                    © 2018 SNMTraders.com . All Rights Reserved
                   </div>{" "}
                 </div>
                 <div className="col-footer-payments col-lg-6 col-md-12 col-sm-12 col-xs-12">

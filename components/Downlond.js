@@ -32,7 +32,7 @@ const Downlond = () => {
                         </div>
                         <div className="form-area col-md-6 col-xs-12 col-sm-12">
                           <h3 className="form-title">
-                            Download x4Traders App Now!
+                            Download SNM Traders App Now!
                           </h3>
                           <div className="form-desc">
                             Shopping fastly and easily more with our app. Get a

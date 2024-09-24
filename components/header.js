@@ -62,7 +62,14 @@ const header = ({
       const filteredItems6 = GroceryFood.filter((item) =>
         item.Type.toLowerCase().includes(query.toLowerCase())
       );
-      const combinedItems = [...filteredItems, ...filteredItems2, ...filteredItems3, ...filteredItems4, ...filteredItems5, ...filteredItems6];
+      const combinedItems = [
+        ...filteredItems,
+        ...filteredItems2,
+        ...filteredItems3,
+        ...filteredItems4,
+        ...filteredItems5,
+        ...filteredItems6,
+      ];
       setFilteredElectronics(combinedItems);
     }
   };
@@ -81,12 +88,15 @@ const header = ({
                   <div className="d-logo">
                     <div className="logo" style={{ width: 210, height: 170 }}>
                       <a href="/">
-                        <img alt="x4Traders" src="images/eee.PNG" />
+                        <img
+                          alt="x4Traders"
+                          src="images/Home & kitchen/Photoroom.png"
+                        />
                       </a>
                     </div>
                     <h1 className="site-title">
                       <a href="/" rel="home">
-                        x4Traders
+                        SNM Traders
                       </a>
                     </h1>{" "}
                     <h2 className="site-description">Online Shopping Mart</h2>
@@ -395,46 +405,46 @@ const header = ({
                     >
                       <div className="psearch-content">
                         <div className="product-cat"></div>
-                        
-                          <div
-                            className="search-wrapper"
-                            style={{
-                              borderLeft: "1px solid black",
-                              borderRadius: "8px",
-                            }}
-                          >
-                            <input
-                              type="text"
-                              name="s"
-                              className="search-field"
-                              autoComplete="off"
-                              placeholder="I'm shopping for..."
-                              value={searchQuery}
-                              onChange={handleSearch}
-                            />
-                            <input
-                              type="hidden"
-                              name="post_type"
-                              defaultValue="product"
-                            />
-                            <div className="search-results woocommerce" />
-                          </div>
-                          <Button
-                            sx={{
-                              width: 100,
+
+                        <div
+                          className="search-wrapper"
+                          style={{
+                            borderLeft: "1px solid black",
+                            borderRadius: "8px",
+                          }}
+                        >
+                          <input
+                            type="text"
+                            name="s"
+                            className="search-field"
+                            autoComplete="off"
+                            placeholder="I'm shopping for..."
+                            value={searchQuery}
+                            onChange={handleSearch}
+                          />
+                          <input
+                            type="hidden"
+                            name="post_type"
+                            defaultValue="product"
+                          />
+                          <div className="search-results woocommerce" />
+                        </div>
+                        <Button
+                          sx={{
+                            width: 100,
+                            backgroundColor: "black",
+                            color: "white",
+                            borderRadius: 1,
+                            fontSize: 11,
+                            fontWeight: "bold",
+                            ":hover": {
                               backgroundColor: "black",
                               color: "white",
-                              borderRadius: 1,
-                              fontSize: 11,
-                              fontWeight: "bold",
-                              ":hover": {
-                                backgroundColor: "black",
-                                color: "white",
-                              },
-                            }}
-                          >
-                            Search
-                          </Button>
+                            },
+                          }}
+                        >
+                          Search
+                        </Button>
                       </div>
                     </form>
                   </div>{" "}
@@ -765,7 +775,7 @@ const header = ({
                       <div className="textwidget custom-html-widget">
                         {" "}
                         <Link href="/" style={{ color: "white" }}>
-                          Sell On X4Traders
+                          Sell On SNM Traders
                         </Link>
                       </div>
                     </div>
@@ -831,7 +841,20 @@ const header = ({
                     </div>
                     <div
                       className={`search-wrapper ${isFixed ? "fixed" : ""}`}
-                      style={isFixed ? { position: "fixed", top: 0, backgroundColor: "white", padding: 2, margin: 0, height: 60, zIndex: 4, width: "95%" } : {}}
+                      style={
+                        isFixed
+                          ? {
+                              position: "fixed",
+                              top: 0,
+                              backgroundColor: "white",
+                              padding: 2,
+                              margin: 0,
+                              height: 60,
+                              zIndex: 4,
+                              width: "95%",
+                            }
+                          : {}
+                      }
                     >
                       <input
                         type="text"
@@ -868,26 +891,29 @@ const header = ({
         {filteredElectronics.length > 0 ? (
           <Box
             sx={
-              isFixed ? { 
-              position: "fixed", 
-              top: 55,
-              width: 360 ,
-              zIndex: 1,
-              padding: 1,
-              backgroundColor: "white",
-              boxShadow: 1,
-              height: 200, 
-              overflow: "auto"
-            } : {
-              width: "47.2%",
-              position: "absolute",
-              top: { xl: 142, lg: 132, md: 194, sm: 266, xs: 266 },
-              left: { xl: 422, lg: 365, md: 285, sm: 150, xs: 95 },
-              zIndex: 1,
-              padding: 1,
-              backgroundColor: "white",
-              boxShadow: 1,
-            }}
+              isFixed
+                ? {
+                    position: "fixed",
+                    top: 55,
+                    width: 360,
+                    zIndex: 1,
+                    padding: 1,
+                    backgroundColor: "white",
+                    boxShadow: 1,
+                    height: 200,
+                    overflow: "auto",
+                  }
+                : {
+                    width: "47.2%",
+                    position: "absolute",
+                    top: { xl: 142, lg: 132, md: 194, sm: 266, xs: 266 },
+                    left: { xl: 422, lg: 365, md: 285, sm: 150, xs: 95 },
+                    zIndex: 1,
+                    padding: 1,
+                    backgroundColor: "white",
+                    boxShadow: 1,
+                  }
+            }
           >
             {filteredElectronics.map((item) => (
               <Box
